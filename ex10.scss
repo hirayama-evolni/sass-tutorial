@@ -1,0 +1,5 @@
+@import "rounded";
+
+#navbar li { @include rounded(top, left); }
+#footer { @include rounded(top, left, 5px); }
+#sidebar { @include rounded(top, left, 8px); }
